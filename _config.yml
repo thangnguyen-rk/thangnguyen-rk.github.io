@@ -1,1 +1,36 @@
-theme: jekyll-theme-minimal
+title: Thang Nguyen
+author: Thang Nguyen
+description: Data Science | Machine Learning
+permalink: /:title/ 
+Lang: "en"
+excerpt separator: "\n\n\n" 
+date format: "%B %d, %Y"
+
+#Layout
+show_social: true      #show site description and social links in the footer
+show_excerpts: true    #show article excerpts on the home page 
+show_frame: true       #adds a gray frame to the site
+show sidebar: false     #show a sidebar instead of the usual header
+
+#Menu
+
+navigation:
+  - file: "/cv.pdf"
+    title: "CV"
+    icon: "home"
+  - title: "Blog"
+    file: "/blog.md"
+
+external:               # see http://fontawesome.com/icons
+
+- {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"} 
+- {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"} 
+- {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+comments:
+#disqus_shortname:""  # see https://disqus.com/
+#isso_domain:""       # see https://posativ.org/isso/
+
+plugins:
+- jekyll-feed
+
