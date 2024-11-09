@@ -1,10 +1,10 @@
-title: Thang Nguyen
-author: Thang Nguyen
-description: Data Science | Machine Learning
-permalink: /:title/ 
-Lang: "en"
-excerpt separator: "\n\n\n" 
-date format: "%B %d, %Y"
+title: Minimal theme
+logo: /assets/img/logo.png
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
+
 
 #Layout
 show_social: true      #show site description and social links in the footer
